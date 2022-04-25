@@ -43,8 +43,7 @@ sudo pacman -S --noconfirm --needed bluez
 sudo pacman -S --noconfirm --needed bluez-libs
 sudo pacman -S --noconfirm --needed bluez-utils
 sudo pacman -S --noconfirm --needed blueberry
-sudo systemctl enable pipewire-pulse
-sudo systemctl start pipewire-pulse
+sudo systemctl --global enable pipewire-pulse
 
 sudo systemctl enable bluetooth.service
 sudo systemctl start bluetooth.service
