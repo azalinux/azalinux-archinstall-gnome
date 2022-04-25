@@ -2,9 +2,9 @@
 set -e
 set -u
 
-echo -n "127.0.0.1 localhost" >> /etc/hosts
-echo -n "::1       localhost" >> /etc/hosts
-echo -n "127.0.1.1 myhostname.localdomain myhostname" >> /etc/hosts
+#echo -n "127.0.0.1 localhost" >> /etc/hosts
+#echo -n "::1       localhost" >> /etc/hosts
+#echo -n "127.0.1.1 myhostname.localdomain myhostname" >> /etc/hosts
 
 pacman -S --noconfirm --needed vi
 pacman -S --noconfirm --needed vim
