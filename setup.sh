@@ -119,7 +119,7 @@ sudo pacman -R --noconfirm epiphany
 
 sh trizen.sh
 
-trizen -S --noconfirm --needed --noedit pamac-aur-git
+trizen -S --noconfirm --needed --noedit pamac-aur
 trizen -S --noconfirm --needed --noedit realvnc-vnc-server
 trizen -S --noconfirm --needed --noedit realvnc-vnc-viewer
 #sudo /usr/bin/vnclicense -add P98BK-34AF4-V2K63-TMBH8-BYNRA
