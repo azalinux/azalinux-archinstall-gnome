@@ -113,6 +113,6 @@ sudo pacman -S --noconfirm --needed mpv
 sudo pacman -R --noconfirm epiphany
 
 sudo pacman -S --noconfirm --needed samba
-sudo wget "https://raw.githubusercontent.com/azalinux/azalinux-plasma/master/smb.conf" -O /etc/samba/smb.conf
+sudo wget "https://raw.githubusercontent.com/azalinux/azalinux-archinstall-gnome/main/smb.conf" -O /etc/samba/smb.conf
 sudo gpasswd sambashare -a aza
 sudo systemctl start smb nmb
