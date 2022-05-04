@@ -60,7 +60,7 @@ sudo pacman -S --noconfirm --needed ffmpegthumbnailer
 #sudo pacman -S --noconfirm --needed gnome-system-monitor
 #sudo pacman -S --noconfirm --needed gnome-tweak-tool
 sudo pacman -S --noconfirm --needed gtk-engine-murrine
-#sudo pacman -S --noconfirm --needed gvfs gvfs-mtp
+sudo pacman -S --noconfirm --needed gvfs-smb
 sudo pacman -S --noconfirm --needed kvantum
 #sudo pacman -S --noconfirm --needed kvantum-theme-arc
 sudo pacman -S --noconfirm --needed lsb-release
