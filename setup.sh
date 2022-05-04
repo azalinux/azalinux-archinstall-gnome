@@ -10,9 +10,9 @@ pacman -S --noconfirm --needed vi
 pacman -S --noconfirm --needed vim
 
 # visudo [uncomment "Wheel root access"] (to save type: :wq )
-#echo " visudo is about to run - uncomment the 'wheel root access' then type ':wq' to save and exit :)"
-#sleep 3
-#visudo
+echo " visudo is about to run - uncomment the 'wheel root access' then type ':wq' to save and exit :)"
+sleep 3
+visudo
 
 sudo systemctl enable sshd
 
@@ -55,10 +55,10 @@ sudo pacman -S --noconfirm --needed nano
 sudo pacman -S --noconfirm --needed traceroute
 
 sudo pacman -S --noconfirm --needed ffmpegthumbnailer
-sudo pacman -S --noconfirm --needed gnome-disk-utility
+#sudo pacman -S --noconfirm --needed gnome-disk-utility
 sudo pacman -S --noconfirm --needed gnome-keyring
-sudo pacman -S --noconfirm --needed gnome-system-monitor
-sudo pacman -S --noconfirm --needed gnome-tweak-tool
+#sudo pacman -S --noconfirm --needed gnome-system-monitor
+#sudo pacman -S --noconfirm --needed gnome-tweak-tool
 sudo pacman -S --noconfirm --needed gtk-engine-murrine
 sudo pacman -S --noconfirm --needed gvfs gvfs-mtp
 sudo pacman -S --noconfirm --needed kvantum-qt5
@@ -73,7 +73,7 @@ sudo pacman -S --noconfirm --needed screenfetch
 sudo pacman -S --noconfirm --needed nautilus-image-converter
 sudo pacman -S --noconfirm --needed ipset
 sudo pacman -S --noconfirm --needed dnsutils
-sudo pacman -S --noconfirm --needed galculator
+#sudo pacman -S --noconfirm --needed galculator
 sudo pacman -S --noconfirm --needed curl
 sudo pacman -S --noconfirm --needed dmidecode
 sudo pacman -S --noconfirm --needed glances
