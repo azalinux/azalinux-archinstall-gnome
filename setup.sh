@@ -114,6 +114,7 @@ sudo pacman -S --noconfirm --needed mpv
 
 sudo pacman -R --noconfirm epiphany
 
+
 sh trizen.sh
 
 trizen -S --noconfirm --needed --noedit pamac-aur
