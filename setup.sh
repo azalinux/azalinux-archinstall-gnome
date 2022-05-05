@@ -115,4 +115,4 @@ sudo pacman -R --noconfirm epiphany
 sudo pacman -S --noconfirm --needed samba
 sudo wget "https://raw.githubusercontent.com/azalinux/azalinux-archinstall-gnome/main/smb.conf" -O /etc/samba/smb.conf
 sudo smbpasswd -a aza
-sudo systemctl start smb nmb
+sudo systemctl enable smb nmb
