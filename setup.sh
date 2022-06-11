@@ -24,7 +24,7 @@ sudo pacman -S --noconfirm --needed system-config-printer
 
 sudo systemctl enable cups.service
 
-sudo pacman -S --noconfirm --needed firewalld
+#sudo pacman -S --noconfirm --needed firewalld
 sudo pacman -S --noconfirm --needed adobe-source-sans-pro-fonts
 #sudo pacman -S --noconfirm --needed cantarell-fonts
 sudo pacman -S --noconfirm --needed noto-fonts
@@ -97,7 +97,6 @@ sudo pacman -S --noconfirm --needed gtop
 sudo pacman -S --noconfirm --needed gparted
 sudo pacman -S --noconfirm --needed simplescreenrecorder
 sudo pacman -S --noconfirm --needed filezilla
-#sudo pacman -S --noconfirm --needed atom
 sudo pacman -S --noconfirm --needed geany
 sudo pacman -S --noconfirm --needed meld
 sudo pacman -S --noconfirm --needed catfish
