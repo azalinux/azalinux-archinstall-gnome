@@ -7,6 +7,7 @@ git clone https://aur.archlinux.org/trizen.git
 cd trizen
 makepkg -si --noconfirm
 
+trizen -S --noconfirm --needed --noedit thunderbird-bin
 trizen -S --noconfirm --needed --noedit pamac-aur
 trizen -S --noconfirm --needed --noedit realvnc-vnc-server
 trizen -S --noconfirm --needed --noedit realvnc-vnc-viewer
